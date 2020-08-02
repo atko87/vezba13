@@ -1,0 +1,56 @@
+.eden, .dva {
+    /* so auto stavame div na sredina  */
+    margin: auto;
+    border: 3px solid #2323a8;
+    margin-top:20px;
+}
+
+
+
+.eden {
+    width:800px;
+}
+
+.dva {
+    max-width:800px;
+}
+
+
+/* // ako imame width i height na nekoj div i vnatre imame golem tekst , so ne go sobiva vo toj div so overfloe kazuvame 
+so ce prajme so toj extra tekst so ne go sobira vo divo
+primer : so overflow:auto ce naprajme da mozi da se skrola */
+.overflow {
+    border:1px solid red;
+    width:200px;
+    height:90px;
+    /* overflow: auto; */
+
+    /* overflow: visible; */
+    /* overflow: hidden ; */
+}
+
+
+
+
+
+/* float
+inine-block
+align
+pseudo class */
+
+
+
+/* opacity - zabledenost  */
+
+img {
+    width:500px;
+    height:500px;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+
+
+/* za razgleduvajne 
+https://www.w3schools.com/css/tryit.asp?filename=trycss_transparency */
